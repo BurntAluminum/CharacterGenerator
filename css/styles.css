@@ -1,0 +1,54 @@
+body{
+  background-color: black;
+}
+
+.young{
+  color: red;
+  display: none;
+}
+
+.old{
+  color: red;
+  display: none;
+}
+
+.panel-body {
+  color: yellow;
+  text-align: left;
+  background-color: #ce0082;
+}
+
+.derived {
+  background-color: #00ccd7;
+  color: #ff0000;
+  min-height: 400px;
+}
+
+.btn
+{
+  color: white;
+  background-color: black;
+}
+
+.primary {
+  color: yellow;
+  background-color: #ff0000;
+  min-height: 400px;
+}
+
+.trait {
+  color: #ce0082;
+  background-color: yellow;
+  min-height: 400px;
+}
+
+.perk {
+  color: blue;
+  background-color: #86ff00;
+  min-height: 400px;
+}
+
+.inv {
+  background-color: blue;
+  min-height: 600px;
+}
