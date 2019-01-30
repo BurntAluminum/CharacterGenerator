@@ -1,74 +1,125 @@
+var str=1;
+var con=1;
+var per=1;
+var dex=1;
+var int=1;
+var cha=1;
+var wil=1;
+var lck=1;
+
+function add (number) {
+  if (number < 12) {
+    return number + 1;
+  }
+  else {
+    return number;
+  }
+}
+
+function subtract (number) {
+  if (number > 1) {
+  return number - 1;
+}
+else {
+  return number;
+  }
+}
+
 $(document).ready(function() {
-$("form#primary")
-  var addstr = function(addone) {
-    return placeholder;
-  };
 
-  var addcon = function(addone) {
-    return placeholder;
-  };
+  $(".strup").click(function() {
+    str = add(str);
+    console.log(str);
+    $("#str").text(str);
+  });
 
-  var addper = function(addone) {
-    return placeholder;
-  }
+  $(".strdn").click(function() {
+    str = subtract(str);
+    console.log(str);
+    $("#str").text(str);
+  });
 
-  var adddex = function(addone) {
-    return placeholder;
-  }
+  $(".conup").click(function() {
+    con = add(con);
+    console.log(con);
+    $("#con").text(con);
+  });
 
-  var addint = function(addone) {
-    return placeholder;
-  }
+  $(".condn").click(function() {
+    con = subtract(con);
+    console.log(con);
+    $("#con").text(con);
+  });
 
-  var addcha = function(addone) {
-    return placeholder;
-  }
+  $(".perup").click(function() {
+    per = add(per);
+    console.log(per);
+    $("#per").text(per);
+  });
 
-  var addwil = function(addone) {
-    return placeholder;
-  }
+  $(".perdn").click(function() {
+    per = subtract(per);
+    console.log(per);
+    $("#per").text(per);
+  });
 
-  var addlck = function(addone) {
-    return placeholder;
-  }
+  $(".dexup").click(function() {
+    dex = add(dex);
+    console.log(dex);
+    $("#dex").text(dex);
+  });
 
-  var substr = function(subone) {
-    return placeholder;
-  }
+  $(".dexdn").click(function() {
+    dex = subtract(dex);
+    console.log(dex);
+    $("#dex").text(dex);
+  });
 
-  var subcon = function(subone) {
-    return placeholder;
-  }
+  $(".intup").click(function() {
+    int = add(int);
+    console.log(int);
+    $("#int").text(int);
+  });
 
-  var subper = function(subone) {
-    return placeholder;
-  }
+  $(".intdn").click(function() {
+    int = subtract(int);
+    console.log(int);
+    $("#int").text(int);
+  })
 
-  var dwndex = function(subone) {
-    return placeholder;
-  }
+  $(".chaup").click(function() {
+    cha = add(cha);
+    console.log(cha);
+    $("#cha").text(cha);
+  })
 
-  var dwnint = function(subone) {
-    return placeholder;
-  }
+  $(".chadn").click(function() {
+    cha = subtract(cha);
+    console.log(cha);
+    $("#cha").text(cha);
+  })
 
-  var dwncha = function(subone) {
-    return placeholder;
-  }
+  $(".wilup").click(function() {
+    wil = add(wil);
+    console.log(wil);
+    $("#wil").text(wil);
+  })
 
-  var dwnwil = function(subone) {
-    return placeholder;
-  }
+  $(".wildn").click(function() {
+    wil = subtract(wil);
+    console.log(wil);
+    $("#wil").text(wil);
+  })
 
-  var dwnlck = function(subone) {
-    return placeholder;
-  }
-  $("#outputstr").text(resultstr);
-  $("#outputcon").text(resultcon);
-  $("#outputper").text(resultper);
-  $("#outputdex").text(resultdex);
-  $("#outputint").text(resultint);
-  $("#outputcha").text(resultcha);
-  $("#outputwil").text(resultwil);
-  $("#outputlck").text(resultlck);
-};
+  $(".lckup").click(function() {
+    lck = add(lck);
+    console.log(lck);
+    $("#lck").text(lck);
+  })
+
+  $(".lckdn").click(function() {
+    lck = subtract(lck);
+    console.log(lck);
+    $("#lck").text(lck);
+  })
+});

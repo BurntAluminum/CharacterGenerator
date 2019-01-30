@@ -115,30 +115,31 @@
           <div class="col-md-4">
             <div class="panel panel-body primary">
               <h2><b>Attributes</b></h2>
-              <button type="button" class="btn btn-default btn-lg strdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>STR</b><button type="button" class="btn btn-default btn-lg strup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg condn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>CON</b><button type="button" class="btn btn-default btn-lg conup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg perdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>PER</b><button type="button" class="btn btn-default btn-lg perup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg dexdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>DEX</b><button type="button" class="btn btn-default btn-lg dexup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg intdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>INT</b><button type="button" class="btn btn-default btn-lg intup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg chadn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>CHA</b><button type="button" class="btn btn-default btn-lg chaup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg wildn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>WIL</b><button type="button" class="btn btn-default btn-lg wilup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
-              <button type="button" class="btn btn-default btn-lg lckdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><b>LCK</b><button type="button" class="btn btn-default btn-lg lckup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>:<br>
+              <button type="button" class="btn btn-default btn-lg strdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg strup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>STR:<span id="str"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg condn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg conup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>CON:<span id="con"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg perdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg perup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>PER:<span id="per"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg dexdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg dexup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>DEX:<span id="dex"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg intdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg intup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>INT:<span id="int"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg chadn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg chaup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>CHA:<span id="cha"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg wildn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg wilup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>WIL:<span id="wil"></span></b><br>
+              <button type="button" class="btn btn-default btn-lg lckdn"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button><button type="button" class="btn btn-default btn-lg lckup"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button><b>LCK:<span id="lck"></span></b><br>
                 <b>Character Points:<span class="allowance"></span></b>
             </div>
           </div>
           <div class="col-md-4">
             <div class="panel panel-body derived">
               <h2><b>Derived Attributes</b></h2>
-              <b>HP:</b><br>
-              <b>STN:</b><br>
-              <b>MV:</b><br>
-              <b>AC:</b><br>
-              <b>DR:</b><br>
-              <b>PR:</b><br>
-              <b>MB:</b><br>
-              <b>HC:</b><br>
-              <b>CC:</b><br>
-              <b>AP:</b><br>
+<!-- Derived Attributes combine primary attributes together in a mathmatic formula IE: HP is strength divided by 3, then that third gets added to con then multiplied by 3, I have a spreadsheet detailing each formula.-->
+              <b>HP:</b><span id="hp"></span><br>
+              <b>STN:</b><span id="stn"></span><br>
+              <b>MV:</b><span id="mv"></span><br>
+              <b>AC:</b><span id="ac"></span><br>
+              <b>DR:</b><span id="dr"></span><br>
+              <b>PR:</b><span id="pr"></span><br>
+              <b>MB:</b><span id="mb"></span><br>
+              <b>HC:</b><span id="hc"></span><br>
+              <b>CC:</b><span id="cc"></span><br>
+              <b>AP:</b><span id="ap"></span><br>
             </div>
             <div class="col-md-2">
             </div>
