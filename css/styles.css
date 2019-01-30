@@ -21,13 +21,18 @@ body{
 .derived {
   background-color: #00ccd7;
   color: #ff0000;
-  min-height: 400px;
+  min-height: 483px;
 }
 
 .btn
 {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: lightgray;
+}
+
+.NotHuman
+{
+  display: none;
 }
 
 .primary {
