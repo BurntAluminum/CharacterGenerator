@@ -6,6 +6,9 @@ var int=1;
 var cha=1;
 var wil=1;
 var lck=1;
+var hp= function(str, con) {
+  return (str / 2) + (con * 3);
+}
 
 function add (number) {
   if (number < 12) {
@@ -30,24 +33,28 @@ $(document).ready(function() {
   $(".strup").click(function() {
     str = add(str);
     console.log(str);
+    hp()
     $("#str").text(str);
   });
 
   $(".strdn").click(function() {
     str = subtract(str);
     console.log(str);
+    hp()
     $("#str").text(str);
   });
 
   $(".conup").click(function() {
     con = add(con);
     console.log(con);
+    hp()
     $("#con").text(con);
   });
 
   $(".condn").click(function() {
     con = subtract(con);
     console.log(con);
+    hp()
     $("#con").text(con);
   });
 
